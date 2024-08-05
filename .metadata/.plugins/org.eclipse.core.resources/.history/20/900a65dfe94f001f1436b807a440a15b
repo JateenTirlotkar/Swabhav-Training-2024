@@ -1,0 +1,12 @@
+package facade.model;
+
+public class DvdPlayer {
+	public void on() {
+		System.out.println("Dvd Player is On ");
+	}
+	public void off() {
+		System.out.println("Dvd Player off");
+	}
+	
+
+}

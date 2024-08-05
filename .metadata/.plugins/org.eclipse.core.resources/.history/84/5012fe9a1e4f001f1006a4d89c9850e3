@@ -1,0 +1,23 @@
+package factory.test;
+
+import factory.model.ICar;
+import factory.model.Mahindra;
+import factory.model.Maruti;
+import factory.model.Tata;
+
+public class CarTest {
+	public static void main(String[] args) {
+		ICar car1= new Maruti();
+		car1.start();
+		car1.stop();
+		
+		ICar car2 = new Tata();
+		car2.start();
+		car2.stop();
+		
+		ICar car3  new Mahindra();
+		car3.start();
+		car3.stop();
+	}
+
+}

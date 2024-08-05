@@ -1,0 +1,9 @@
+package com.ocp.violation.model;
+
+public enum FestivalType {
+	private NEWYEAR;
+	private DIWALI;
+	private HOLI;
+	private OTHERS;
+
+}

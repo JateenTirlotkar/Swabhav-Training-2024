@@ -1,0 +1,23 @@
+package DecoratorHW.test;
+
+import Decorator.model.GoldenHat;
+import DecoratorHW.model.HatDecorator;
+import DecoratorHW.model.IHat;
+import DecoratorHW.model.RibbonedHat;
+import DecoratorHW.model.StandardHat;
+
+public class HatTest {
+	public static void main(String[] args) {
+		IHat hat = new StandardHat();
+		System.out.println(hat);
+		System.out.println();
+		HatDecorator decorator = new HatDecorator(hat);
+		GoldenHat goldenHat  =new GoldenHat(hat);
+		System.out.println(goldenHat.getPrice());
+		System.out.println();
+		RibbonedHat ribbonedHat =  new RibbonedHat(goldenHat);
+		
+		System.out.println(ribbonedHat.getPrice());
+	}
+
+}

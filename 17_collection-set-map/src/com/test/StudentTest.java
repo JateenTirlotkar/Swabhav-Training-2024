@@ -1,0 +1,69 @@
+package com.test;
+
+import java.util.ArrayList;
+import java.util.*;
+
+import com.model.NameComparator;
+
+import com.model.Student;
+import com.model.StudentComparator;
+
+public class StudentTest {
+	public static void main(String[] args) {
+		List<Student> students1 = new ArrayList<Student>();
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("Enter the size of list ");
+//		int input = scanner.nextInt();
+//		System.out.println("Enter number for index ");
+//		for (int i = 0; i < input; i++) {
+//			System.out.println(students.get(i));
+//
+//		}
+
+		students1.add(new Student(2, "shailesh", 90.2));
+		students1.add(new Student(78, "Ram", 89));
+		students1.add(new Student(8, "John", 87));
+		System.out.println(students1);
+		
+		
+		
+		System.out.println("");
+		Collections.sort(students1, new StudentComparator.RollNumberComparator());
+		System.out.println(students1);
+		System.out.println(" ");
+		
+		Collections.sort(students1, new StudentComparator.NameComparator());
+		System.out.println(students1);
+		
+		
+		
+		
+		
+		
+
+//		System.out.println("Normal for loops");
+//		for (int i = 0; i < students.size(); i++) {
+//			System.out.println(students.get(i));
+//		}
+//		System.out.println("Advance for loops");
+//		for (Student student : students) {
+//			System.out.println(students);
+//		}
+//		System.out.println("Using List Iterator");
+//		Iterator<Student> studentInterator = students.iterator();
+//		while (studentInterator.hasNext()) {
+//			System.out.println(studentInterator.next());
+//		}
+//		System.out.println("Using ListIterator");
+//
+//		ListIterator<Student> studentListIterator = students.listIterator();
+//		while (studentListIterator.hasNext()) {
+//			System.out.println(studentListIterator.next());
+//		}
+//		while (studentListIterator.hasPrevious()) {
+//			System.out.println(studentListIterator.previous());
+//		}
+
+	}
+
+}

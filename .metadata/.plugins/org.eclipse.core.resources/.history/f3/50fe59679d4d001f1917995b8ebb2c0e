@@ -1,0 +1,15 @@
+package com.srp.solution.model;
+
+public class TaxCalculator {
+	private Invoice invoice;
+	
+	public TaxCalculator(Invoice invoice) {
+		super();
+		this.invoice = invoice;
+	}
+
+	public  double CalculateTax() {
+		return amount*tax/100;
+	}
+
+}

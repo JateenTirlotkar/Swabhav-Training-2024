@@ -1,0 +1,15 @@
+package Proxy.model;
+
+import java.util.List;
+
+public class ProxyInternet implements IInternet{
+	private static final List<String> bannedSites;
+	
+
+	@Override
+	public void connectTo(String host) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

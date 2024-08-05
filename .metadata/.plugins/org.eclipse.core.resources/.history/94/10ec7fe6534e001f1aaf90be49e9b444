@@ -1,0 +1,6 @@
+package com.ocp.solution.model;
+
+public interface IFestivalInterest {
+	private void getInterestRate();
+
+}

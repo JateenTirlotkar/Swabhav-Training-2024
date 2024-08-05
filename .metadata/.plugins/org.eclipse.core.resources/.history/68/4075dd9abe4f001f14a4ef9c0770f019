@@ -1,0 +1,18 @@
+package Builder.test;
+
+import Builder.model.Car;
+import Builder.model.CarBuilder;
+
+public class CarTest {
+    public static void main(String[] args) {
+        Car car = new CarBuilder("Ford Mustang")
+                .color("Red")
+                .year(2020)
+                .engine("V8")
+                .isAutomatic(true)
+                .build();
+
+        System.out.println(car);
+    }
+}
+

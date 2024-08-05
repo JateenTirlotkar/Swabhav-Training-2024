@@ -1,0 +1,15 @@
+package Builder.test;
+
+public class Client {
+    public static void main(String[] args) {
+        Car car = new CarBuilder("Ford Mustang")
+                .color("Red")
+                .year(2020)
+                .engine("V8")
+                .isAutomatic(true)
+                .build();
+
+        System.out.println(car);
+    }
+}
+

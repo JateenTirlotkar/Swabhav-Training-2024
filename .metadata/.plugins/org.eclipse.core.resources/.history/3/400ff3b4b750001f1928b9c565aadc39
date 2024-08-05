@@ -1,0 +1,18 @@
+package Observer.model;
+
+public class EmailNotifier implements INotifier {
+
+	public void notify(Account account) {
+		System.out.println(" Email notification for account  "+ account);
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void error() {
+		System.out.println("Email message: Low Balance");
+		// TODO Auto-generated method stub
+		
+	}
+
+}

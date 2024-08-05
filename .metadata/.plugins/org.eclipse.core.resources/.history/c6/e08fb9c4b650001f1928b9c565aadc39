@@ -1,0 +1,9 @@
+package InsufficientFundsException;
+
+public class InsufficientFundsException extends RuntimeException {
+	
+	public void getMessage() {
+		System.out.println("Transaction failed, Insufficient Funds");
+	}
+
+}

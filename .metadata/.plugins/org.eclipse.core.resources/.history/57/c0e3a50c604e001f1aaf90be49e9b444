@@ -1,0 +1,5 @@
+package solution.model;
+
+public interface ILogger {
+
+}

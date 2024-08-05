@@ -1,0 +1,11 @@
+package com.ocp.solution.model;
+
+public class DiwaliInterest implements IFestivalInterest{
+
+	@Override
+	public void getInterestRate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

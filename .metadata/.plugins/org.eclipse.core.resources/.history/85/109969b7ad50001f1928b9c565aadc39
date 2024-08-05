@@ -1,0 +1,5 @@
+package Observer.model;
+
+public class EmailNotifier {
+
+}

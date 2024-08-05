@@ -1,0 +1,6 @@
+package Composite.model;
+
+public interface FileSystem {
+	void showDetails();
+
+}

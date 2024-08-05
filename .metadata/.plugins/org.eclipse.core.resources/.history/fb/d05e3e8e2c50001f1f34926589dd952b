@@ -1,0 +1,13 @@
+package DecoratorHW.test;
+
+import DecoratorHW.model.HatDecorator;
+import DecoratorHW.model.IHat;
+import DecoratorHW.model.StandardHat;
+
+public class HatTest {
+	public static void main(String[] args) {
+		IHat hat = new StandardHat();
+		System.out.println(hat.getName();
+	}
+
+}

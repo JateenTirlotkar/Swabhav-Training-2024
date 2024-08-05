@@ -1,0 +1,12 @@
+package Observer.model;
+
+public class WhatsappNotifier implements INotifier {
+
+	@Override
+	public void notify(Account account) {
+		System.out.println("Whatsapp Notification for account: "+ account);
+		// TODO Auto-generated method stub
+		
+	}
+
+}

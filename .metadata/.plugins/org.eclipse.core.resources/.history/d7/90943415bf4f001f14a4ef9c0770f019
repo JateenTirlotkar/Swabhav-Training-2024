@@ -1,0 +1,14 @@
+package Builder.model;
+
+public class CarDirector {
+	public void buildFord(CarBuilder builder) {
+		builder.brand("Ford");
+		builder.color("Red");
+		builder.engine("V8");
+		builder.year(2001);
+		builder.isAutomatic(true);
+		builder.build();
+		
+	}
+
+}

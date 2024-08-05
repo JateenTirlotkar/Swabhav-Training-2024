@@ -1,0 +1,22 @@
+package Observer.test;
+
+import java.util.Scanner;
+
+import Observer.model.Account;
+import Observer.model.INotifier;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Account account1 = new Account(102, "Jateen", 2000);
+		account1.deposit(200);
+		account1.withdraw(100);
+		INotifier notifier;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println(" Which notifier do you want: Press 1 for Sms Press 2 for Email, Press 3 for Whatsapp: ");
+		int input = scanner.nextInt();
+		if(input==1)
+			notifier = 
+//		account1.registerNotifier(notifier);
+	}
+
+}

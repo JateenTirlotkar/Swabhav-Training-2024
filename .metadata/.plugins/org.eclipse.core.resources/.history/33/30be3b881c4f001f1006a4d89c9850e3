@@ -1,0 +1,17 @@
+package creational.singleton.model;
+
+public class Login {
+	public Login() {
+		System.out.println("Login Created ");
+	}
+	private void status() {
+		System.out.println("Login successfull");
+	}
+	public static Login getLogin() {
+		if(	Login==null) {
+		Login login = new Login();
+		return login;
+		}
+	}
+
+}

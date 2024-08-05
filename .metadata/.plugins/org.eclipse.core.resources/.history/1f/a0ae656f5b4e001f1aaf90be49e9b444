@@ -1,0 +1,12 @@
+package solution.test;
+
+import solution.model.IWorkable;
+import violation.model.Robot;
+
+public class WorkerTest {
+	public static void main(String[] args) {
+		IWorkable robot = new solution.model.Robot();
+		
+	}
+
+}

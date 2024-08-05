@@ -1,0 +1,13 @@
+package factory.model;
+
+public class AccountFactory {
+	public IAccount makeAccount(AccountType name) {
+		IAccount account =null;
+		if(name==AccountType.Savings)
+			account = new Savings();
+		if(name==AccountType.Current)
+			account = new Current();
+		return account;
+	}
+
+}

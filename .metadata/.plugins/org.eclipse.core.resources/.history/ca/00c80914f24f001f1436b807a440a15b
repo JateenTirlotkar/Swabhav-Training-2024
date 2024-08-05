@@ -1,0 +1,11 @@
+package Adapter.model;
+
+public class AdapterTest {
+	public static void main(String[] args) {
+		Hat hat = new Hat("Jateen", "Tirlotkar", 200.0, 20.0);
+		HatAdapter adapter = new HatAdapter();
+		adapter.getItemName();
+		adapter.getItemPrice();
+	}
+
+}

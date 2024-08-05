@@ -1,0 +1,39 @@
+package com.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest {
+	Operations operation
+	void init() {
+	Operations operation = new Operations();
+	}
+
+	@Test
+	void testAddition() {
+		
+		assertEquals(30,operation.addition(10, 20) );
+		
+	}
+	@Test
+	void testSubstraction() {
+		
+		assertEquals(30,operation.addition(10, 20) );
+		
+	}
+	@Test
+	void testMultiplication() {
+		
+		assertEquals(30,operation.addition(10, 20) );
+		
+	}
+	@Test
+	void testDivision() {
+		
+		assertEquals(30,operation.addition(10, 20) );
+		
+	}
+	
+
+}

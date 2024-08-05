@@ -1,0 +1,5 @@
+package DecoratorHW.model;
+
+public interface IHat {
+
+}

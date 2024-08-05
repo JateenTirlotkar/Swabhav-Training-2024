@@ -1,0 +1,10 @@
+package Decorator.model;
+
+public class ICarDecorator implements ICarService {
+	
+
+
+	@Override
+	public Double getcost() {
+		return null;
+	}}

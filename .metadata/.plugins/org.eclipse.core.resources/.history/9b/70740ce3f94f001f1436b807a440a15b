@@ -1,0 +1,14 @@
+package Decorator.model;
+
+public class WheelAlign extends ICarDecorator{
+
+	public WheelAlign(ICarService car) {
+		super(car);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Double getCost() {
+		return 150 + super.getcost();
+	}
+
+}

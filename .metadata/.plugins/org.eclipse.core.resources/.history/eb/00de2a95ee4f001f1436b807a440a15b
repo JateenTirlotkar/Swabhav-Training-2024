@@ -1,0 +1,16 @@
+package Adapter.model;
+
+public class Biscuit implements Iitems{
+
+	@Override
+	public String getItemName() {
+		
+		return "Parle-G";
+	}
+
+	@Override
+	public Double getItemPrice() {
+		return 10.0;
+	}
+
+}

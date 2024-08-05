@@ -1,0 +1,6 @@
+package factory1.model;
+
+public interface ICarFactory {
+	ICar marutiFactory();
+
+}

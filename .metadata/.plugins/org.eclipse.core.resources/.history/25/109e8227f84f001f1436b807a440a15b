@@ -1,0 +1,5 @@
+package Decorator.model;
+
+public class CarInspection {
+
+}

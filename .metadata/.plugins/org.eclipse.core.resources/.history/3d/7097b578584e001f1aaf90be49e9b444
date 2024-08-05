@@ -1,0 +1,11 @@
+package violation.test;
+
+import violation.model.IWorker;
+import violation.model.Labour;
+
+public class WorkerTest {
+	public static void main(String[] args) {
+		IWorker labour = new Labour()
+	}
+
+}

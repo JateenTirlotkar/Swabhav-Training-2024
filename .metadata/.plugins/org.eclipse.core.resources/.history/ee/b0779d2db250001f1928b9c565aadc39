@@ -1,0 +1,15 @@
+package Observer.test;
+
+import Observer.model.Account;
+import Observer.model.INotifier;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Account account1 = new Account(102, "Jateen", 2000);
+		account1.deposit(200);
+		account1.withdraw(100);
+		INotifier notifier;
+//		account1.registerNotifier(notifier);
+	}
+
+}

@@ -1,0 +1,8 @@
+package Adapter.model;
+
+public class AdapterTest {
+	public static void main(String[] args) {
+		Iitems item;
+	}
+
+}

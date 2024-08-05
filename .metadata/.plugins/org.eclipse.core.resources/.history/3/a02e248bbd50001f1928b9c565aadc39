@@ -1,0 +1,11 @@
+package packet.test;
+
+import packet.model.IPacketState;
+import packet.model.Packet;
+
+public class PacketTest {
+	public static void main(String[] args) {
+		IPacketState packet  = new Packet(new Ordered());
+	}
+
+}

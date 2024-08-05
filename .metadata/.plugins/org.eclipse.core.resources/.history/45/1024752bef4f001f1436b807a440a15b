@@ -1,0 +1,9 @@
+package Adapter.model;
+
+public class Hat {
+	String shortname;
+	String longName;
+	int basicPrice;
+	int tax;
+
+}

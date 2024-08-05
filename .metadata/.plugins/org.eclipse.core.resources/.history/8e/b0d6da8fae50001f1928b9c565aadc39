@@ -1,0 +1,11 @@
+package Observer.model;
+
+public class SmsNotifier  implements INotifier{
+
+	public void notify(int account) {
+		System.out.println("Account has been credited with: "+ account);
+		// TODO Auto-generated method stub
+		
+	}
+
+}

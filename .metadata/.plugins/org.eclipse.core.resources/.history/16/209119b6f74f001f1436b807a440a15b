@@ -1,0 +1,7 @@
+package Decorator.model;
+
+public class ICarDecorator implements ICarService {
+	Double getCost();
+	ICarService car = new ICa
+
+}

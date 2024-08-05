@@ -1,0 +1,20 @@
+package Decorator.model;
+
+public class ICarDecorator implements ICarService {
+	ICarService car;
+	
+
+
+	public Double getcost() {
+		return 0.0;
+	}
+	
+	
+
+
+
+
+
+
+
+}

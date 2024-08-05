@@ -1,0 +1,11 @@
+package Observer.model;
+
+public class SmsNotifier  implements INotifier{
+
+	public void notify(Account account) {
+		System.out.println("Notification send for account : "+ account);
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.ocp.violation.test;
+
+import com.ocp.violation.model.FixedDeposit;
+
+public class FixedDepositTest {
+	public static void main(String[] args) {
+		FixedDeposit fixedDeposit = new FixedDeposit(1222, "Jateen", 2000, 5, DIWALI);
+		
+	}
+
+}

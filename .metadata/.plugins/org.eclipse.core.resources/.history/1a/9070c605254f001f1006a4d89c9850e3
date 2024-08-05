@@ -1,0 +1,23 @@
+package factory.model;
+
+public class Savings implements IAccount{
+	int balance = 1000;
+
+	@Override
+	public int credit(int amount) {
+		
+		 balance += amount;
+		// TODO Auto-generated method stub
+		return balance;
+	}
+
+	@Override
+	public int debit(int amount) {
+		balance -=amount;
+		// TODO Auto-generated method stub
+		return balance;
+	}
+
+	
+
+}

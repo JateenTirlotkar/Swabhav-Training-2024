@@ -1,0 +1,9 @@
+package Adapter.model;
+
+import java.util.*;
+
+public class ShoppingCart {
+	List<Iitems> cartItems = new List<Iitems>() {
+	};
+
+}

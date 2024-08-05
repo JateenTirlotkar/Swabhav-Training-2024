@@ -1,0 +1,19 @@
+package Adapter.model;
+
+public class HatAdapter implements Iitems {
+	Hat hat;
+	
+
+	@Override
+	public String getItemName() {
+		
+		return hat.getShortname()+hat.getLongName();
+	}
+
+	@Override
+	public Double getItemPrice() {
+		
+		return 0;
+	}
+
+}

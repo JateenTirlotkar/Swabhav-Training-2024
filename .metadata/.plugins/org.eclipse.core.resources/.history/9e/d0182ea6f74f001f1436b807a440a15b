@@ -1,0 +1,6 @@
+package Decorator.model;
+
+public interface ICarDecorator extends ICarService {
+	Double getCost();
+
+}

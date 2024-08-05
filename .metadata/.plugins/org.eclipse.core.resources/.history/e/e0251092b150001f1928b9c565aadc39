@@ -1,0 +1,10 @@
+package Observer.test;
+
+import Observer.model.INotifier;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		
+	}
+
+}

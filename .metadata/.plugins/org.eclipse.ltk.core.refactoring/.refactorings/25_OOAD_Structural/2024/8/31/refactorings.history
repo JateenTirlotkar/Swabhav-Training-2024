@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Composite.model.FileSystem&apos; to &apos;IFileSystem&apos;&#x0D;&#x0A;- Original project: &apos;25_OOAD_Structural&apos;&#x0D;&#x0A;- Original element: &apos;Composite.model.FileSystem&apos;&#x0D;&#x0A;- Renamed element: &apos;Composite.model.IFileSystem&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FileSystem&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Composite.model{FileSystem.java[FileSystem" matchStrategy="1" name="IFileSystem" qualified="false" references="true" similarDeclarations="false" stamp="1722536415040" textual="false" version="1.0"/>
+</session>

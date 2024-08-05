@@ -1,0 +1,9 @@
+package factory1.model;
+
+public interface ICarFactory {
+	ICar marutiFactory();
+	ICar tataFactory();
+	ICar mahindraFactory();
+	
+
+}

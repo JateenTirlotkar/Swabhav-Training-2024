@@ -1,0 +1,18 @@
+package solution.model;
+
+import java.util.logging.Logger;
+
+public class TaxCalculator {
+	Logger logger;
+
+	public TaxCalculator(Logger logger) {
+		super();
+		this.logger = logger;
+	}
+	
+	public TaxCalculator() {
+		
+	}
+	
+
+}

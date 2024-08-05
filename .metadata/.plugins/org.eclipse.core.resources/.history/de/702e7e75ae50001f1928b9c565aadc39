@@ -1,0 +1,12 @@
+package Observer.model;
+
+public class EmailNotifier implements INotifier {
+
+	@Override
+	public void notify(int account) {
+		System.out.println(" Email notification for account no. "+ account);
+		// TODO Auto-generated method stub
+		
+	}
+
+}
